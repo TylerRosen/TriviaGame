@@ -1,0 +1,25 @@
+body {
+	text-align: center;
+	background-image: url(../images/curtains.jpeg);
+	margin: 0 auto;
+}
+
+.container {
+	background: silver;
+	margin: 200px;
+	padding: 20px;
+	font-family: Impact, Charcoal, sans-serif
+
+}
+
+#timer, #score {
+	font-size: 32px;
+}
+
+h1, h2 {
+	color: blue;
+}
+
+button {
+	font-size: 18px;
+}
