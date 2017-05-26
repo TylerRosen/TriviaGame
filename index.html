@@ -1,91 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Trivia Game</title>
 
-	
+
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
+
 <body>
 
-<div class="container">
-<h1>Movie Trivia</h1>
-<button id="start">Start</button>
-<br>
-<br>
-<div id="timer"></div>
+	<div class="container">
+		<h1>Movie Trivia</h1>
+		<button id="start">Start</button>
+		<br>
+		<br>
+		<div id="timer"></div>
 
-<br>
+		<br>
 
-<!-- Question 1 -->
-<div id="question_1">
-<h2><strong>Question 1</strong></h2>
-<p class="questions">What is the highest grossing film of all time?</p>
-<p class="answers">
-<input type="radio" name= "questionOne" value="false">A. Titanic 
-<input type="radio" name= "questionOne" value="true"> B. Avatar 
-<input type="radio" name= "questionOne" value="false">C. The Avengers 
-<input type="radio" name= "questionOne" value="false">D. Star Wars: The Force Awakens</p>
-</div>
-<br>
+		<!-- Question 1 -->
+		<div id="question_1">
+			<h2><strong>Question 1</strong></h2>
+			<p class="questions">What is the highest grossing film of all time?</p>
+			<p class="answers">
+				<input type="radio" name="questionOne" value="false">A. Titanic
+				<input type="radio" name="questionOne" value="true"> B. Avatar
+				<input type="radio" name="questionOne" value="false">C. The Avengers
+				<input type="radio" name="questionOne" value="false">D. Star Wars: The Force Awakens</p>
+		</div>
+		<br>
 
-<!-- Questions 2 -->
-<div id="question_2">
-<h2><strong>Question 2</strong></h2>
-<p class="questions">Which of these was not directed by Akira Kurosawa?</p>
-<p class="answers">
-<input type="radio" name= "questionTwo" value="false"> A. Seven Samurai 
-<input type="radio" name= "questionTwo" value="false"> B. Yojimbo 
-<input type="radio" name= "questionTwo" value="false"> C. The Hidden Fortress
-<input type="radio" name= "questionTwo" value="true"> D. Godzilla</p>
-<br>
+		<!-- Questions 2 -->
+		<div id="question_2">
+			<h2><strong>Question 2</strong></h2>
+			<p class="questions">Which of these was not directed by Akira Kurosawa?</p>
+			<p class="answers">
+				<input type="radio" name="questionTwo" value="false"> A. Seven Samurai
+				<input type="radio" name="questionTwo" value="false"> B. Yojimbo
+				<input type="radio" name="questionTwo" value="false"> C. The Hidden Fortress
+				<input type="radio" name="questionTwo" value="true"> D. Godzilla</p>
 
-<!-- Question 3 -->
-<div id="question_3">
-<h2><strong>Question 3</strong></h2>
-<p class="questions">True or False: George Lucas was the executive producer on Howard the Duck</p>
-<p class="answers">
-<input type="radio" name= "questionThree" value= "true">A. True
-<input type="radio" name= "questionThree" value="false">B. False</p>
-<br>
+		</div>
+		<br>
 
-<!-- Questions 4 -->
-<div id="question_4">
-<h2><strong>Question 4</strong></h2>
-<p class="questions">What year did Terminator 2 come out?</p>
-<p class="answers">
-<input type="radio" name= "questionFour" value= "false">A. 1989 
-<input type="radio" name= "questionFour" value= "false">B. 1990 
-<input type="radio" name= "questionFour" value= "true">C. 1991 
-<input type="radio" name= "questionFour" value= "false">D. 1992</p>
-<br>
+		<!-- Question 3 -->
+		<div id="question_3">
+			<h2><strong>Question 3</strong></h2>
+			<p class="questions">True or False: George Lucas was the executive producer on Howard the Duck</p>
+			<p class="answers">
+				<input type="radio" name="questionThree" value="true">A. True
+				<input type="radio" name="questionThree" value="false">B. False</p>
 
-<!-- Questions 5 -->
-<div id="question_5">
-<h2><strong>Question 5</strong></h2>
-<p class="questions">True or False: Pulp Fiction was Quentin Tarintino's directorial debut</p>
-<p class="answers">
-<input type="radio" name= "questionFive" value= "false">A. True
-<input type="radio" name= "questionFive" value = "true">B. False</p>
-<br>
-<button id="submit">Submit</button>
-<br>
-<br>
-<div id="score"></div>
-<br>
-<div id="restart"></div>
-<br>
-<br>
-</div>
+		</div>
 
-<!-- Create Submit Answers Button -->
-	
-<script src="assets/javascript/app.js">
+		<br>
 
-</script>
+		<!-- Questions 4 -->
+		<div id="question_4">
+			<h2><strong>Question 4</strong></h2>
+			<p class="questions">What year did Terminator 2 come out?</p>
+			<p class="answers">
+				<input type="radio" name="questionFour" value="false">A. 1989
+				<input type="radio" name="questionFour" value="false">B. 1990
+				<input type="radio" name="questionFour" value="true">C. 1991
+				<input type="radio" name="questionFour" value="false">D. 1992</p>
+			<br>
+
+		</div>
+
+		<!-- Questions 5 -->
+		<div id="question_5">
+			<h2><strong>Question 5</strong></h2>
+			<p class="questions">True or False: Pulp Fiction was Quentin Tarintino's directorial debut</p>
+			<p class="answers">
+				<input type="radio" name="questionFive" value="false">A. True
+				<input type="radio" name="questionFive" value="true">B. False</p>
+
+		</div>
+		<br>
+		<button id="submit">Submit</button>
+		<br>
+		<br>
+		<div id="score"></div>
+		<br>
+		<div id="restart"></div>
+		<br>
+		<br>
+
+	</div>
+
+
+	<!-- Create Submit Answers Button -->
+
+	<script src="assets/js/app.js">
+
+	</script>
 
 </body>
+
 </html>
