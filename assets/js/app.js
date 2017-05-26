@@ -18,10 +18,12 @@ var timer;
 //Start
 
 $(document).ready(function() {
-    console.log( "ready!" );
+    $("#questions, #submit").hide();
 
 //Starts timer when button is clicked
 $("#start").on("click", function start() {
+	$("#questions, #submit").show();
+	$("#start").hide();
 
 //Tells timer to decrease every second
 function run () {
